@@ -6,3 +6,4 @@ class Factura
 end
 
 cant = ARGV[0]
+precio = ARGV[1]
