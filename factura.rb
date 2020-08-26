@@ -1,1 +1,3 @@
-puts "Hola Mundo"
+class Factura
+    
+end
