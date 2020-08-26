@@ -12,7 +12,7 @@ class Factura
     end
     
     def calcular_impuesto()
-        @impuestos = @total_inicial * @impuesto[@estado]
+        @impuestos = @total_inicial * @impuesto[@estado] 
     end
 end
 
