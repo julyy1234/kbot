@@ -12,7 +12,6 @@ class Factura
     end
     
     def calcular_impuesto()
-        
     end
 end
 

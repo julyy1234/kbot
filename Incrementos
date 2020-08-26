@@ -1,0 +1,20 @@
+Creación de clase factura
+Definición de constructor
+Definición de hashmap impuestos
+Definición de hashmap descuentos
+Capturar argumento cantidad
+Capturar argumento importe
+Capturar argumento estado
+Creación función calcular impuestos
+Consultar hashmap impuestos
+Calcular total de impuestos
+Creación función calcular descuentos
+Consultar hashmap descuentos
+Calcular total de descuentos 
+Creación función calcular total final
+Calcular total final
+Creación función mostrar totales
+Mostrar total inicial 
+Mostrar impuestos 
+Mostrar descuentos
+Mostrar total final
