@@ -12,9 +12,11 @@ class Factura
     end
     
     def calcular_impuesto()
+        @impuestos = @total_inicial * @impuesto[@estado]
     end
 end
 
 cant = ARGV[0]
 precio = ARGV[1]
 estado = ARGV[2]
+
