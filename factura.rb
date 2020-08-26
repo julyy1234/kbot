@@ -7,3 +7,4 @@ end
 
 cant = ARGV[0]
 precio = ARGV[1]
+estado = ARGV[2]
