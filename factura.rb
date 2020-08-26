@@ -11,8 +11,23 @@ class Factura
         @total_final = 0
     end
     
-    def calcular_impuesto()
+    def calcular_impuestos()
         @impuestos = @total_inicial * @impuesto[@estado] 
+    end
+
+    def calcular_descuentos()
+        @descuentos = @total_inicial * @descuento[@estado] 
+    end
+    
+    def calcular_total_final()
+        @total_final = @total_inicial + @impuestos - @descuentos
+    end
+
+    def mostrar_totales()
+        puts "Total inicial: #{@total_inicial}"
+        puts "Impuestos: #{@impuestos}"
+        puts "Descuento: #{@descuentos}"
+        puts "Total Final: #{@total_final}"
     end
 end
 
@@ -20,3 +35,8 @@ cant = ARGV[0]
 precio = ARGV[1]
 estado = ARGV[2]
 
+factura = Factura.new(cant,precio,estado)
+calcular_impuestos()
+calcular_descuentos()
+calcular_total_final()
+mostrar_totales()
